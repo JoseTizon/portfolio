@@ -226,15 +226,23 @@
   }
 
   .cards {
-    display: block;
+    max-height: 150px;
+    display: flex;
+    overflow-x: auto;
+  }
+
+  .cards::-webkit-scrollbar{
+    width: 0;
   }
 
   .singleCard {
     background-color: var(--third);
-    width: 100%;
+    min-width: 60%;
     margin: 10px;
     font-size: small;
     padding: 10px;
+    line-height: 110px;
+    margin-right: 2px;
   }
 
   .cardTitle {
@@ -245,7 +253,7 @@
   }
 
   .singleCard img {
-    width: 40px;
+    width: 100px;
     background: none;
     margin: 0;
     padding-right: 5px;
@@ -253,11 +261,13 @@
 
   .singleCard h3 {
     background-color: var(--third);
+    display: none;
   }
 
   .singleCard p {
     background-color: var(--third);
     padding-top: 5px;
+    display: none;
   }
 
   .singleExperienceCard {
@@ -413,14 +423,22 @@
 
   .cards {
     display: flex;
+    max-height: 150px;
+    overflow-x: auto;
+  }
+
+  .cards::-webkit-scrollbar{
+    width: 0;
   }
 
   .singleCard {
     background-color: var(--third);
-    width: 46%;
+    min-width: 55%;
     margin: 10px;
     font-size: small;
     padding: 10px;
+    line-height: 110px;
+    margin-right: 2px;
   }
 
   .cardTitle {
@@ -431,7 +449,7 @@
   }
 
   .singleCard img {
-    width: 40px;
+    width: 100px;
     background: none;
     margin: 0;
     padding-right: 5px;
@@ -439,11 +457,13 @@
 
   .singleCard h3 {
     background-color: var(--third);
+    display: none;
   }
 
   .singleCard p {
     background-color: var(--third);
     padding-top: 5px;
+    display: none;
   }
 
   .singleExperienceCard {
