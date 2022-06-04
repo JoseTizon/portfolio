@@ -14,7 +14,6 @@
   scroll-behavior: smooth;
 }
 
-/*-------------------Inician estilos del nav ---------------------------------------*/
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -223,6 +222,7 @@
   .about p {
     margin: 10px 20px;
     justify-content: baseline;
+    text-align: center;
   }
 
   .cards {
@@ -408,6 +408,7 @@
   .about p {
     margin: 10px 20px;
     justify-content: baseline;
+    text-align: center;
   }
 
   .cards {
@@ -586,6 +587,7 @@
   .about p {
     margin: 10px 150px;
     justify-content: baseline;
+    text-align: center;
   }
 
   .skills{
@@ -767,6 +769,7 @@
   .about p {
     margin: 10px 150px;
     justify-content: baseline;
+    text-align: center;
   }
 
   .skills{
