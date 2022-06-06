@@ -117,7 +117,6 @@
 
 /*Mobile xs*/
 @media only screen and (min-width: 1px) and (max-width: 375px) {
-
   nav {
     position: fixed;
     top: 0;
@@ -149,7 +148,7 @@
     padding: 60px 30px 10px 20px;
   }
 
-  .firstInfo p{
+  .firstInfo p {
     margin-top: 10px;
   }
 
@@ -231,7 +230,7 @@
     overflow-x: auto;
   }
 
-  .cards::-webkit-scrollbar{
+  .cards::-webkit-scrollbar {
     width: 0;
   }
 
@@ -310,7 +309,7 @@
     border-radius: 50px;
   }
 
-  .academlo{
+  .academlo {
     color: var(--primary);
     text-align: center;
     font-size: large;
@@ -322,7 +321,6 @@
 
 /*Mobile*/
 @media only screen and (min-width: 376px) and (max-width: 765px) {
-
   nav {
     position: fixed;
     top: 0;
@@ -354,7 +352,7 @@
     padding: 60px 30px 10px 20px;
   }
 
-  .firstInfo p{
+  .firstInfo p {
     margin-top: 10px;
   }
 
@@ -436,7 +434,7 @@
     overflow-x: auto;
   }
 
-  .cards::-webkit-scrollbar{
+  .cards::-webkit-scrollbar {
     width: 0;
   }
 
@@ -515,7 +513,7 @@
     border-radius: 50px;
   }
 
-  .academlo{
+  .academlo {
     color: var(--primary);
     text-align: center;
     font-size: large;
@@ -527,7 +525,6 @@
 
 /*Tablet*/
 @media only screen and (min-width: 766px) and (max-width: 929px) {
-
   nav {
     top: 0;
     left: 0;
@@ -536,11 +533,11 @@
     padding: 16px 10px;
   }
 
-  body{
+  body {
     display: block;
   }
 
-  .firstContainer{
+  .firstContainer {
     display: flex;
   }
 
@@ -550,11 +547,11 @@
     margin-left: 130px;
   }
 
-  .firstInfo p{
+  .firstInfo p {
     margin-top: 20px;
   }
 
-  .pTwo{
+  .pTwo {
     display: none;
   }
 
@@ -628,7 +625,7 @@
     text-align: center;
   }
 
-  .skills{
+  .skills {
     margin: 10px 150px;
   }
 
@@ -708,7 +705,7 @@
     background-color: var(--third);
     border-radius: 50px;
   }
-  .academlo{
+  .academlo {
     color: var(--primary);
     text-align: center;
     font-size: large;
@@ -720,7 +717,6 @@
 
 /*Desktop*/
 @media only screen and (min-width: 930px) {
-
   nav {
     top: 0;
     left: 0;
@@ -729,11 +725,11 @@
     padding: 16px 10px;
   }
 
-  body{
+  body {
     display: block;
   }
 
-  .firstContainer{
+  .firstContainer {
     display: flex;
   }
 
@@ -744,7 +740,7 @@
     margin-top: 10%;
   }
 
-  .firstInfo p{
+  .firstInfo p {
     margin-top: 20px;
   }
 
@@ -818,7 +814,7 @@
     text-align: center;
   }
 
-  .skills{
+  .skills {
     margin: 10px 150px;
   }
 
@@ -836,7 +832,7 @@
     padding: 10px;
   }
 
-  .singleCard p{
+  .singleCard p {
     text-align: center;
   }
 
@@ -905,13 +901,12 @@
     background-color: var(--third);
     border-radius: 50px;
   }
-.academlo{
-  color: var(--primary);
-  text-align: center;
-  font-size: large;
-  height: 70px;
-  align-items: center;
-  margin-top: 50px;
-}
-
+  .academlo {
+    color: var(--primary);
+    text-align: center;
+    font-size: large;
+    height: 70px;
+    align-items: center;
+    margin-top: 50px;
+  }
 }
