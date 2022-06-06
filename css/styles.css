@@ -10,8 +10,11 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", sans-serif;
-  background-color: var(--smoke);
   scroll-behavior: smooth;
+}
+
+body{
+  background-color: var(--smoke);
 }
 
 .container {
@@ -560,11 +563,14 @@
     text-align: center;
     background-image: url(../img/lineas-portafolio-01.svg);
     background-repeat: no-repeat;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .profilePic img {
-    width: 60%;
+    width: 80%;
     background: none;
   }
 
@@ -749,11 +755,14 @@
     text-align: center;
     background-image: url(../img/lineas-portafolio-01.svg);
     background-repeat: no-repeat;
+    display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 
   .profilePic img {
-    width: 60%;
+    width: 80%;
     background: none;
   }
 
