@@ -712,7 +712,7 @@
     color: var(--primary);
     text-align: center;
     font-size: large;
-    height: 100px;
+    height: 70px;
     align-items: center;
     margin-top: 50px;
   }
@@ -909,7 +909,7 @@
   color: var(--primary);
   text-align: center;
   font-size: large;
-  height: 100px;
+  height: 70px;
   align-items: center;
   margin-top: 50px;
 }
