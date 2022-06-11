@@ -82,7 +82,6 @@ body{
   display: flex;
   flex: 1 1 0%;
   justify-content: flex-end;
-  margin: 0 -16px;
 }
 
 .mobile-menu {
@@ -542,12 +541,14 @@ body{
 
   .firstContainer {
     display: flex;
+    padding: 0 10%;
   }
 
   .firstInfo {
-    padding: 10px 30px 10px 20px;
     width: 50%;
-    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .firstInfo p {
@@ -737,13 +738,14 @@ body{
 
   .firstContainer {
     display: flex;
+    padding: 0 10%;
   }
 
   .firstInfo {
-    padding: 10px 30px 10px 20px;
     width: 50%;
-    margin-left: 130px;
-    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .firstInfo p {
