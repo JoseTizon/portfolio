@@ -283,6 +283,10 @@ body{
     width: 80px;
   }
 
+  .div-wi{
+    width: 15%;
+  }
+
   .portfolioCards {
     display: block;
     text-align: center;
@@ -488,6 +492,10 @@ body{
     width: 80px;
   }
 
+  .div-wi{
+    width: 15%;
+  }
+
   .portfolioCards {
     display: block;
     text-align: center;
@@ -682,6 +690,10 @@ body{
 
   .singleExperienceCard img {
     width: 80px;
+  }
+
+  .div-wi{
+    width: 15%;
   }
 
   .portfolioCards {
@@ -881,6 +893,10 @@ body{
 
   .singleExperienceCard img {
     width: 80px;
+  }
+
+  .div-wi{
+    width: 15%;
   }
 
   .portfolioCards {
