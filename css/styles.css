@@ -658,6 +658,10 @@ body{
     margin: 10px;
     font-size: small;
     padding: 10px;
+    min-height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .cardTitle {
@@ -857,6 +861,10 @@ body{
     margin: 10px;
     font-size: small;
     padding: 10px;
+    min-height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .singleCard p {
