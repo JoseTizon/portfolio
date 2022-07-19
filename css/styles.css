@@ -117,7 +117,7 @@ body{
   display: block;
 }
 
-/*Mobile xs*/
+/*Mobile Small*/
 @media only screen and (min-width: 1px) and (max-width: 375px) {
   nav {
     position: fixed;
@@ -207,6 +207,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
   }
 
   .contact p {
@@ -292,11 +293,34 @@ body{
     display: block;
     text-align: center;
     padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
   }
 
-  .portfolioCards img {
-    width: 80%;
-    height: 50%;
+  .singlePortfolioCard{
+    width: 100%;
+    border: 2px solid #808080;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .portfolioBtn{
+    padding: 10px;
+    margin: 10px 20px;
+    color: white;
+    background-color: var(--secondary);
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  .singlePortfolioCard img {
+    width: 100%;
+    height: 300px;
   }
 
   .contactInfo {
@@ -327,8 +351,8 @@ body{
   }
 }
 
-/*Mobile*/
-@media only screen and (min-width: 376px) and (max-width: 765px) {
+/*Mobile Large*/
+@media only screen and (min-width: 376px) and (max-width: 939px) {
   nav {
     position: fixed;
     top: 0;
@@ -417,6 +441,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    text-decoration: none;
   }
 
   .contact p {
@@ -502,217 +527,34 @@ body{
     display: block;
     text-align: center;
     padding: 20px;
-  }
-
-  .portfolioCards img {
-    width: 80%;
-    height: 50%;
-  }
-
-  .contactInfo {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 20px;
-  }
-
-  .footerPhone,
-  .footerMail {
-    text-align: center;
-  }
-
-  .footerMail img,
-  .footerPhone img {
-    background-color: var(--third);
-    border-radius: 50px;
-  }
-
-  .academlo {
-    color: var(--primary);
-    text-align: center;
-    font-size: large;
-    height: 70px;
-    align-items: center;
-    margin-top: 50px;
-  }
-}
-
-/*Tablet*/
-@media only screen and (min-width: 766px) and (max-width: 929px) {
-  nav {
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 99;
-    padding: 16px 10px;
-  }
-
-  body {
-    display: block;
-  }
-
-  .firstContainer {
-    display: flex;
-    padding: 0 10%;
-  }
-
-  .firstInfo {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
   }
 
-  .firstInfo p {
-    margin-top: 20px;
+  .singlePortfolioCard{
+    width: 400px;
+    border: 2px solid #808080;
+    border-radius: 5px;
+    margin: 5px;
   }
 
-  .pTwo {
-    display: none;
-  }
-
-  .profilePic {
-    width: 50%;
-    text-align: center;
-    background-image: url(../img/lineas-portafolio-01.svg);
-    background-repeat: no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  .profilePic img {
-    width: 80%;
-    background: none;
-  }
-
-  .networks {
-    justify-content: space-around;
-    background: none;
-    padding-left: 45px;
-    padding-right: 45px;
-    display: flex;
-    margin: 0px 150px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-  }
-
-  .networks a {
-    background: none;
-  }
-
-  .networks img {
-    background-color: var(--primary);
-    border-radius: 100px;
-    width: 45px;
-    padding: 2px;
-    border: 2px solid var(--smoke);
-  }
-
-  h2 {
-    text-align: center;
-    margin-top: 40px;
-  }
-
-  .contact {
+  .portfolioBtn{
     padding: 10px;
     margin: 10px 20px;
     color: white;
     background-color: var(--secondary);
     align-items: center;
     justify-content: center;
-    display: none;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
   }
 
-  .contact p {
-    background-color: var(--secondary);
-    text-align: center;
-  }
-
-  .contact img {
-    padding-right: 20px;
-    background: none;
-    border: none;
-    width: 40px;
-  }
-
-  .about p {
-    margin: 10px 150px;
-    justify-content: baseline;
-    text-align: center;
-  }
-
-  .skills {
-    margin: 10px 150px;
-  }
-
-  .cards {
-    display: flex;
-  }
-
-  .singleCard {
-    background-color: var(--third);
-    width: 46%;
-    margin: 10px;
-    font-size: small;
-    padding: 10px;
-    min-height: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  }
-
-  .cardTitle {
-    background-color: var(--third);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .singleCard img {
-    width: 40px;
-    background: none;
-    margin: 0;
-    padding-right: 5px;
-  }
-
-  .singleCard h3 {
-    background-color: var(--third);
-  }
-
-  .singleCard p {
-    background-color: var(--third);
-    padding-top: 5px;
-  }
-
-  .singleExperienceCard {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin: 20px;
-  }
-
-  .singleExperienceCard img {
-    width: 80px;
-  }
-
-  .div-wi{
-    width: 15%;
-  }
-
-  .portfolioCards {
-    display: block;
-    text-align: center;
-    padding: 20px;
-    margin: 10px 50px;
-  }
-
-  .portfolioCards img {
-    width: 30%;
+  .singlePortfolioCard img {
+    width: 100%;
     height: 300px;
-    padding: 10px;
+    padding: 5px;
   }
 
   .contactInfo {
@@ -732,6 +574,7 @@ body{
     background-color: var(--third);
     border-radius: 50px;
   }
+
   .academlo {
     color: var(--primary);
     text-align: center;
@@ -743,7 +586,7 @@ body{
 }
 
 /*Desktop*/
-@media only screen and (min-width: 930px) {
+@media only screen and (min-width: 940px) {
   nav {
     top: 0;
     left: 0;
@@ -825,6 +668,7 @@ body{
     align-items: center;
     justify-content: center;
     display: none;
+    text-decoration: none;
   }
 
   .contact p {
@@ -914,12 +758,34 @@ body{
     text-align: center;
     padding: 20px;
     margin: 10px 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 
-  .portfolioCards img {
-    width: 30%;
-    height: 300px;
+  .singlePortfolioCard{
+    width: 400px;
+    border: 2px solid #808080;
+    border-radius: 5px;
+    margin: 5px;
+  }
+
+  .portfolioBtn{
     padding: 10px;
+    margin: 10px 20px;
+    color: white;
+    background-color: var(--secondary);
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+  }
+
+  .singlePortfolioCard img {
+    width: 100%;
+    height: 300px;
+    padding: 5px;
   }
 
   .contactInfo {
