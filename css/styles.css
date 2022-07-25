@@ -301,7 +301,8 @@ body{
 
   .singlePortfolioCard{
     width: 100%;
-    border: 2px solid #808080;
+    border: none;
+    background-color: #8e7befaf;
     border-radius: 5px;
     margin: 5px;
   }
@@ -534,7 +535,8 @@ body{
 
   .singlePortfolioCard{
     width: 400px;
-    border: 2px solid #808080;
+    border: none;
+    background-color: #8e7befaf;
     border-radius: 5px;
     margin: 5px;
   }
@@ -765,7 +767,8 @@ body{
 
   .singlePortfolioCard{
     width: 400px;
-    border: 2px solid #808080;
+    border: none;
+    background-color: #8e7befaf;
     border-radius: 5px;
     margin: 5px;
   }
